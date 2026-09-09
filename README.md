@@ -28,3 +28,9 @@ Chaque parcours part du code source et sépare les mécanismes observables des h
 ### Collaboration
 
 Digital A7 souhaite contribuer à des projets ZK et blockchain par des analyses reproductibles, une documentation accessible et des prototypes ciblés.
+
+
+## Contributions ZK récentes
+
+- [Plonky3](https://github.com/DigitalA7/Plonky3) — parcours STARK en 8 chapitres : AIR, traces, engagements, FRI, Fiat–Shamir et vérification.
+- [Arkworks R1CS Tutorial](https://github.com/DigitalA7/r1cs-tutorial) — parcours SNARK en 8 chapitres : R1CS, signatures, Merkle et transition d’état d’un mini-rollup.
