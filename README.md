@@ -1,36 +1,35 @@
 # Digital A7
 
-## Recherche et prototypage blockchain
+## Recherche, prototypage et documentation blockchain
 
-Digital A7 est un espace d’expérimentation consacré aux protocoles open source, aux smart contracts et aux outils de l’écosystème blockchain.
+Digital A7 étudie les protocoles open source en partant du code : architectures de preuve, invariants, frontières de confiance et intégrations EVM. Les parcours techniques sont publiés en français et distinguent explicitement analyse documentaire, tests et audit.
 
 ### Axes de recherche
 
-- Zero-knowledge proofs, langages de circuits et architectures de rollups
-- Smart contracts et standards de tokens
-- Protocoles DeFi et interopérabilité
-- Infrastructure blockchain et systèmes distribués
-- Prototypage, apprentissage par le code et documentation technique francophone
+- ZK-rollups, zkVM, STARK, SNARK et langages de circuits
+- FHE et calcul confidentiel
+- Base L2, comptes intelligents, paiements et agents
+- Hyperliquid, HyperEVM et systèmes de données
+- Smart contracts, interopérabilité et protocoles DeFi
 
-### Travaux sélectionnés
+### ZK et preuves
 
-- [Noir](https://github.com/DigitalA7/noir) — parcours en 10 chapitres sur le compilateur ZK, SSA, ACIR, ACVM, Brillig et les backends de preuve.
-- [Challenge Scroll](https://github.com/DigitalA7/Challenge-Scroll) — expérimentation Solidity dans l’écosystème Scroll.
-- [L2 Basic](https://github.com/DigitalA7/L2-Basic) — exploration pédagogique des mécanismes de couche 2.
-- [Uniswap v4 by Example](https://github.com/DigitalA7/v4-by-example) — parcours pratique sur les pools, hooks et swaps.
-- [OpenZeppelin Contracts](https://github.com/DigitalA7/openzeppelin-contracts) — documentation française de standards et primitives Solidity.
-- [Study Bridge](https://github.com/DigitalA7/study-bridge) — étude d’un bridge burn/mint avec validation par signature.
+- [StarkWare Proving](https://github.com/DigitalA7/proving) — pipeline Cairo, AIR, Circle STARK, FRI, sérialisation et récursion.
+- [Plonky3](https://github.com/DigitalA7/Plonky3) — AIR, traces, engagements, FRI et Fiat–Shamir.
+- [Bellman](https://github.com/DigitalA7/bellman) — circuits R1CS, paramètres Groth16, témoins et vérification.
+- [Noir](https://github.com/DigitalA7/noir) — HIR/SSA, ACIR, ACVM, Brillig et backends de preuve.
+- [Arkworks R1CS Tutorial](https://github.com/DigitalA7/r1cs-tutorial) — signatures, arbres de Merkle et transition d’état d’un mini-rollup.
 
-### Méthode
+### FHE, Base et HyperEVM
 
-Chaque parcours part du code source et sépare les mécanismes observables des hypothèses. Les chapitres courts publiés dans `docs/fr/` décrivent l’architecture, les flux et les limites. Les tests ne sont déclarés réussis que lorsqu’ils ont réellement été exécutés.
+- [HElib](https://github.com/DigitalA7/HElib) — BGV, CKKS, packing SIMD, bruit et bootstrapping.
+- [Base Skills](https://github.com/DigitalA7/skills) — réseau, comptes, paiements, paymasters, ERC-8021 et agents.
+- [Hyperliquid Stats](https://github.com/DigitalA7/hyperliquid-stats) — ingestion, idempotence, métriques, fraîcheur et frontière HyperCore/HyperEVM.
 
-### Collaboration
+### Autres travaux
 
-Digital A7 souhaite contribuer à des projets ZK et blockchain par des analyses reproductibles, une documentation accessible et des prototypes ciblés.
+[L2 Basic](https://github.com/DigitalA7/L2-Basic), [OpenZeppelin Contracts](https://github.com/DigitalA7/openzeppelin-contracts), [Study Bridge](https://github.com/DigitalA7/study-bridge), [x402](https://github.com/DigitalA7/x402) et [Uniswap v4 by Example](https://github.com/DigitalA7/v4-by-example).
 
+### Méthode et collaboration
 
-## Contributions ZK récentes
-
-- [Plonky3](https://github.com/DigitalA7/Plonky3) — parcours STARK en 8 chapitres : AIR, traces, engagements, FRI, Fiat–Shamir et vérification.
-- [Arkworks R1CS Tutorial](https://github.com/DigitalA7/r1cs-tutorial) — parcours SNARK en 8 chapitres : R1CS, signatures, Merkle et transition d’état d’un mini-rollup.
+Chaque parcours relie un mécanisme aux composants du dépôt dans `docs/fr/`, avec un commit par chapitre. Digital A7 est ouvert aux analyses reproductibles, à la documentation de sécurité et aux améliorations ciblées dans les écosystèmes ZK, FHE, Base et HyperEVM.
