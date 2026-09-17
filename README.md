@@ -33,3 +33,7 @@ Digital A7 étudie les protocoles open source en partant du code : architectures
 ### Méthode et collaboration
 
 Chaque parcours relie un mécanisme aux composants du dépôt dans `docs/fr/`, avec un commit par chapitre. Digital A7 est ouvert aux analyses reproductibles, à la documentation de sécurité et aux améliorations ciblées dans les écosystèmes ZK, FHE, Base et HyperEVM.
+
+## Parcours français
+
+Un parcours documentaire de 48 chapitres est disponible dans [`docs/fr/`](https://github.com/DigitalA7/DigitalA7/tree/main/docs/fr), avec un commit distinct par chapitre, un sommaire et des liens de lecture sur les preuves ZK, la FHE, Base, HyperEVM, la DeFi et la sécurité des smart contracts.
